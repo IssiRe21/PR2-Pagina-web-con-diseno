@@ -1,0 +1,40 @@
+a
+{
+    color: #F48888;
+    text-decoration: none;
+}
+
+nav
+{
+    font: 100% sans-serif;
+    text-align: center;
+    background-color: white;
+}
+
+nav li {
+    display: block;
+}
+
+.navbar-hover .options-container 
+{
+    display: flex;
+}
+
+.navbar-hover .option 
+{
+    width: 100%;
+}
+
+
+.navbar-hover .option ul 
+{
+    display: none;
+    padding: 0;
+    background-color: white;
+    position: relative;
+}
+
+.navbar-hover .option:hover ul 
+{
+    display: block;
+}
